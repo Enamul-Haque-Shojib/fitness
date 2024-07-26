@@ -1,0 +1,823 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.azeret-mono-inter-font {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+    background-color: rgb(17, 17, 17);
+  }
+
+  .container{
+    /* border: 1px solid red; */
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  
+  button{
+    padding:0.6rem 2.5rem;
+    border-radius: 20px;
+    color: white;
+  }
+  .button-primary{
+    background-color: rgb(230, 83, 60);
+    
+  }
+  .button-secondary{
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  .nav-title{
+    color: rgba(230, 83, 60, 1);
+    font-weight: 800;
+    font-style: italic;
+    font-size: 2.25rem;
+  }
+  .display-flex{
+    display: flex;
+  }
+  .display-grid{
+    display: grid;
+  }
+ 
+  nav{
+    
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  ul{
+    list-style-type: none;
+  }
+  ul li{
+    padding: 10px 25px;
+    font-family: 18px;
+    color: white;
+  }
+  .nav-active{
+  
+    border-radius: 20px;
+    background-color: rgb(230, 83, 60);
+  }
+  
+
+  .nav-mobile-device{
+    display: none;
+  }
+
+  .banner-content{
+    
+    justify-content: space-between;
+    align-items: center;
+    height: 85vh;
+    position: relative;
+    
+  }
+  .banner-title{
+  
+    max-width: 70%;
+    height: 439px;
+    color: white;
+  }
+  .banner-content h1{
+    font-size: 4.8rem;
+    font-weight: 900;
+    margin-top: 28px;
+  }
+  .banner-content p{
+    
+    margin-top: 28px;
+  }
+
+  .banner-image{
+    
+    max-width: 30%;
+    height: 520px;
+  
+  }
+  .banner-image img{
+    width: 100%;
+    height: 100%;
+  }
+  .banner-badge1{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 150px;
+    height: 88px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 12px;
+    position: absolute;
+    top: 125px;
+    right: -60px;
+  
+  }
+  .banner-badge1 h3{
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+  .banner-badge1 p{
+    margin-top: 0;
+    font-size: 0.8rem;
+  }
+  .banner-button{
+    margin-top: 28px;
+  }
+
+  .banner-badge2{
+    width: 206px;
+    height: 96px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 210px;
+    bottom: 80px;
+  }
+  .banner-badge2 h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  .banner-badge2 p{
+    margin-top: 0;
+  }
+  .banner-badge2 .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(230, 83, 60);
+    
+  }
+  .play{
+    position: absolute;
+    right: 174px;
+    bottom: 40px;
+  }
+
+  .your-habits{
+    padding: 100px 0;
+  }
+  .your-habits-title{
+    max-width: 80%;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 58px;
+  }
+  .your-habits-title h3{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+    
+  }
+  .your-habits p{
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .your-habits-image-content{
+    
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+  }
+
+  .your-habits-card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .your-habits-card h5{
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .your-habits-card p{
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .your-habits-image{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+    
+  }
+  .your-habits-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    /* border: 1px solid red; */
+  }
+  .your-habits-card h5{
+    margin-bottom: 6px;
+  }
+  
+.run-extra-content{
+  background-color: rgb(34, 34, 34);
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 54px;
+}
+.run-extra-title{
+  color: white;
+  width: 50%;
+}
+.run-extra-title h2{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.run-extra-title p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+.run-extra-image{
+  width: 40%;
+  height: 312px;
+  background-image: url('./images/run.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.bmi-calculate{
+
+  padding: 88px 0;
+
+  
+}
+.bmi-calculate-title{
+  /* border: 1px solid red; */
+  max-width: 65%;
+    color: white;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.bmi-calculate-title h2{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.bmi-calculate-title p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+.bmi-calculator-content-box{
+  padding: 50px 0; 
+  background-color: rgb(34, 34, 34);
+}
+.bmi-calculator-content{
+  
+  /* border: solid red; */
+  justify-content: space-between;
+  /* align-items: center; */
+  
+}
+.bmi-calculator-chart-content{
+  /* border: 1px solid red; */
+  width: 40%;
+}
+.bmi-calculator-chart-content h3{
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin-bottom:52px;  
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th{
+  border: 1px solid white;
+  text-align: left;
+  padding: 10px 0px 10px 10px;
+}
+.bmi-calculator-form-content{
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.bmi-calculator-form-content h3{
+  font-size: 1.75rem;
+  font-weight: 900; 
+  margin-bottom: 14px;
+}
+.bmi-calculator-form-content p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 34px;
+}
+input[type=number], select {
+  color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.1);
+  
+}
+
+
+.our-team-title{
+  max-width: 80%;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 58px;
+}
+.our-team-title h2{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.our-team-title p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+.our-team-image-content{
+  
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 20; */
+  color: white;
+}
+.team-member{
+  /* border:1px solid red; */
+  width: 340px;
+  height: 312px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 10px;
+
+
+}
+.team-member1{
+  
+  background-image: url('./images/trainer1.png');
+  
+}
+.team-member2{
+  
+  background-image: url('./images/trainer2.png');
+  
+}
+.team-member3{
+  
+  background-image: url('./images/trainer3.png');
+  
+}
+.team-member4{
+  
+  background-image: url('./images/trainer4.png');
+ 
+}
+.team-member5{
+  
+  background-image: url('./images/trainer5.png');
+ 
+}
+.team-member6{
+  
+  background-image: url('./images/trainer6.png');
+ 
+}
+.team-member-title{
+  flex-direction: column;
+  justify-content: end;
+  padding: 0 0 16px 20px;
+}
+.team-member-title h4{
+  font-size: 1.25rem;
+}
+
+
+.workout-program-content h2{
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  margin: 80px 0 40px 0;
+}
+
+.workout-program-cart-content{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+  color: white;
+  gap: 20px;
+  margin-bottom: 150px;
+
+}
+.workout-program-cart{
+  width: 35%;
+}
+.workout-program-cart img{
+  margin-bottom: 20px;
+}
+.workout-program-cart h3{
+  font-size: 1.75rem;
+  font-weight: 900; 
+  margin-bottom: 10px;
+}
+.workout-program-cart p{
+  font-size: 0.8rem;
+  font-weight: 400; 
+  line-height: 1.5;
+}
+
+
+footer{
+  background-color: rgb(25, 25, 25);
+  margin-top: 88px;
+}
+.footer-title-content{
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 80px;
+}
+.footer-title1{
+  color: white;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-title1 h1{
+  color: rgba(230, 83, 60, 1);
+    font-weight: 800;
+    font-style: italic;
+    font-size: 4.3rem;
+    margin-bottom: 20px;
+}
+.footer-title1 p{
+  width: 70%;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.footer-title2{
+  /* border: 1px solid red; */
+  color: white;
+  width: 20%;
+  flex-direction: column;
+}
+.footer-title2 h3{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.footer-title2 p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.footer-title3{
+  color: white;
+  width: 20%;
+  flex-direction: column;
+  
+}
+.footer-title3 h3{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.footer-title3 p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.copyright{
+  color: white;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+  @media screen and (max-width: 576px){
+    .container{
+    
+      max-width: 95%;
+    }
+    .nav-desktop-device{
+      display: none;
+    }
+  
+    .nav-mobile-device{
+      display: block;
+      width: 24px;
+      height: 24px;
+    }
+    .banner-content{
+      /* border: 1px solid red; */
+      flex-direction: column;
+    
+      max-height: 100vh;
+    }
+    .banner-content h1{
+      font-size: 2.8rem;
+      font-weight: 900;
+      margin-top: 28px;
+    }
+    .banner-content p{
+      
+      margin-top: 28px;
+    }
+    .banner-title{
+    /* border: 1px solid red; */
+      max-width: 100%;
+      max-height: 100vh;
+      color: white;
+    }
+   
+    .banner-image{
+      /* border: 1px solid red; */
+      max-width: 100%;
+      max-height: 100vh;
+    margin-top: 10px;
+    }
+    .banner-badge1{
+     
+      width: 120px;
+      height: 75px;
+      padding: 0px 10px;
+      position: absolute;
+      top: 400px;
+      right: 0px;
+    
+    }
+    .banner-badge1 h3{
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .banner-badge1 p{
+      margin-top: 0;
+      font-size: 0.6rem;
+    }
+
+    .banner-badge2{
+      width: 140px;
+      height: 70px;
+      
+      align-items: center;
+      position: absolute;
+      right: 180px;
+      bottom: -100px;
+    }
+    .banner-badge2 h3{
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .banner-badge2 p{
+      margin-top: 0;
+      font-size: 0.6rem;
+    }
+   
+    .play{
+      position: absolute;
+      right: 112px;
+      bottom: 27px;
+    }
+    .your-habits{
+    
+      padding: 400px 0 60px 0;
+    }
+    .your-habits-title{
+      max-width: 95%;
+    }
+    .your-habits-title h3{
+      font-size: 2rem;
+      font-weight: 900;
+      margin-bottom: 14px;
+      
+    }
+    .your-habits p{
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
+
+    .your-habits-image-content{
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 40px;
+    }
+
+    .run-extra-content{
+      flex-direction: column;
+      background-color: rgb(34, 34, 34);
+      justify-content: center;
+      align-items: center;
+      padding: 33px;
+      
+    }
+    .run-extra-title{
+      color: white;
+      width: 100%;
+    }
+    .run-extra-title h2{
+      font-size: 2rem;
+      font-weight: 900;
+      margin-bottom: 14px;
+    }
+    .run-extra-title p{
+      font-size: 0.8rem;
+      font-weight: 400;
+      margin-bottom: 18px;
+    }
+    .run-extra-image{
+      width: 100%;
+      width: 287px;
+      height: 170px;
+     margin-top: 31px;
+    }
+    .run-extra-button{
+      width: 100%;
+    }
+
+    .bmi-calculate{
+
+      padding: 88px 0;
+    
+      
+    }
+    .bmi-calculate-title{
+      /* border: 1px solid red; */
+      max-width: 100%;
+        
+        padding: 0px 10px 50px 10px;
+    }
+    .bmi-calculate-title h2{
+      font-size: 2rem;
+      font-weight: 900;
+      margin-bottom: 14px;
+     
+    }
+   
+    
+    .bmi-calculator-content{
+      flex-direction: column;
+    
+      
+    }
+    .bmi-calculator-chart-content{
+      /* border: 1px solid red; */
+      width: 100%;
+    }
+    .bmi-calculator-chart-content h3{
+      font-size: 1.65rem;
+      font-weight: 900;
+      margin-bottom:52px;  
+    }
+    table{
+      border-collapse: collapse;
+      width: 100%;
+    }
+   
+    .bmi-calculator-form-content{
+      /* border: 1px solid red; */
+      width: 100%;
+      padding-top: 42px;
+    }
+    .bmi-calculator-form-content h3{
+      font-size: 1.65rem;
+      font-weight: 900; 
+      margin-bottom: 14px;
+    }
+    
+  
+
+    .our-team-title{
+      max-width: 100%;
+        
+        padding-bottom: 58px;
+    }
+    .our-team-title h2{
+      font-size: 2rem;
+      font-weight: 900;
+      margin-bottom: 14px;
+    }
+    .our-team-title p{
+      font-size: 0.8rem;
+      font-weight: 400;
+      margin-bottom: 18px;
+    }
+    .our-team-image-content{
+      /* border: 1px solid red; */
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+      align-items: center;
+      /* gap: 20; */
+      color: white;
+    }
+    .team-member{
+      /* border:1px solid red; */
+      width: 320px;
+      height: 312px;
+      
+    }
+
+
+
+    .workout-program-content h2{
+      font-size: 2rem;
+     
+    }
+    
+    .workout-program-cart-content{
+      flex-direction: column;
+      width: 100%;
+    
+    }
+    .workout-program-cart{
+      width: 100%;
+    }
+   
+  
+    
+    
+
+    footer{
+      background-color: rgb(25, 25, 25);
+      margin-top: 88px;
+      
+    }
+    .footer-title-content{
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+    }
+    .footer-title1{
+      color: white;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .footer-title1 h1{
+      color: rgba(230, 83, 60, 1);
+        font-weight: 800;
+        font-style: italic;
+        font-size: 3.3rem;
+        margin-bottom: 20px;
+    }
+    .footer-title1 p{
+      width: 90%;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+    .footer-title2{
+      /* border: 1px solid red; */
+      color: white;
+      width: 100%;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    .footer-title2 h3{
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .footer-title2 p{
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+    .footer-title3{
+      color: white;
+      width: 100%;
+      flex-direction: column;
+      margin-top: 20px;
+      
+    }
+    .footer-title3 h3{
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .footer-title3 p{
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+    
+
+  
+  }
