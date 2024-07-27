@@ -97,6 +97,7 @@
   .banner-content p{
     
     margin-top: 28px;
+    color: rgba(255, 255, 255, 0.5);
   }
 
   .banner-image{
@@ -129,6 +130,7 @@
   .banner-badge1 p{
     margin-top: 0;
     font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
   }
   .banner-button{
     margin-top: 28px;
@@ -151,6 +153,7 @@
   }
   .banner-badge2 p{
     margin-top: 0;
+    color: rgba(255, 255, 255, 0.5);
   }
   .banner-badge2 .circle{
     width: 40px;
@@ -184,6 +187,7 @@
   .your-habits p{
     font-size: 0.8rem;
     font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
   }
   .your-habits-image-content{
     
@@ -207,6 +211,7 @@
   .your-habits-card p{
     font-size: 0.8rem;
     font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
   }
   .your-habits-image{
     width: 180px;
@@ -243,6 +248,7 @@
   font-size: 0.8rem;
   font-weight: 400;
   margin-bottom: 18px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .run-extra-image{
   width: 40%;
@@ -276,6 +282,7 @@
   font-size: 0.8rem;
   font-weight: 400;
   margin-bottom: 18px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .bmi-calculator-content-box{
   padding: 50px 0; 
@@ -305,6 +312,10 @@ td, th{
   border: 1px solid white;
   text-align: left;
   padding: 10px 0px 10px 10px;
+  
+}
+td{
+  color: rgba(255, 255, 255, 0.5);
 }
 .bmi-calculator-form-content{
   /* border: 1px solid red; */
@@ -319,18 +330,24 @@ td, th{
   font-size: 0.8rem;
   font-weight: 400;
   margin-bottom: 34px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
 }
 input[type=number], select {
-  color: white;
+  
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  
   border-radius: 4px;
   box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0.1);
   
+}
+
+input ,select{
+  color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -350,6 +367,8 @@ input[type=number], select {
   font-size: 0.8rem;
   font-weight: 400;
   margin-bottom: 18px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
 }
 .our-team-image-content{
   
@@ -411,6 +430,9 @@ input[type=number], select {
 .team-member-title h4{
   font-size: 1.25rem;
 }
+.team-member-title p{
+  color: rgba(255, 255, 255, 0.5);
+}
 
 
 .workout-program-content h2{
@@ -418,7 +440,7 @@ input[type=number], select {
   font-weight: 900;
   text-align: center;
   color: white;
-  margin: 80px 0 40px 0;
+  margin: 100px 0 40px 0;
 }
 
 .workout-program-cart-content{
@@ -428,7 +450,7 @@ input[type=number], select {
   
   color: white;
   gap: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 
 }
 .workout-program-cart{
@@ -440,18 +462,19 @@ input[type=number], select {
 .workout-program-cart h3{
   font-size: 1.75rem;
   font-weight: 900; 
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 .workout-program-cart p{
   font-size: 0.8rem;
   font-weight: 400; 
   line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 
 footer{
   background-color: rgb(25, 25, 25);
-  margin-top: 88px;
+  padding-top: 88px;
 }
 .footer-title-content{
   justify-content: space-between;
@@ -475,6 +498,7 @@ footer{
   width: 70%;
   font-size: 0.8rem;
   font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
   line-height: 1.5;
 }
 .footer-title2{
@@ -486,11 +510,13 @@ footer{
 .footer-title2 h3{
   font-size: 2rem;
   font-weight: 700;
+  padding-bottom: 20px;
 }
 .footer-title2 p{
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.5);
 }
 .footer-title3{
   color: white;
@@ -501,15 +527,17 @@ footer{
 .footer-title3 h3{
   font-size: 2rem;
   font-weight: 700;
+  padding-bottom: 20px;
 }
 .footer-title3 p{
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .copyright{
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   height: 60px;
   justify-content: center;
   align-items: center;
@@ -623,11 +651,13 @@ footer{
     }
 
     .run-extra-content{
+      
       flex-direction: column;
       background-color: rgb(34, 34, 34);
       justify-content: center;
       align-items: center;
-      padding: 33px;
+      padding: 5px;
+      margin-top: 40px;
       
     }
     .run-extra-title{
@@ -645,9 +675,9 @@ footer{
       margin-bottom: 18px;
     }
     .run-extra-image{
+      
       width: 100%;
-      width: 287px;
-      height: 170px;
+      height: 300px;
      margin-top: 31px;
     }
     .run-extra-button{
@@ -664,7 +694,7 @@ footer{
       /* border: 1px solid red; */
       max-width: 100%;
         
-        padding: 0px 10px 50px 10px;
+        padding: 0px 10px 10px 10px;
     }
     .bmi-calculate-title h2{
       font-size: 2rem;
