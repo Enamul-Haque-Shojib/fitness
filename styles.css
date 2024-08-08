@@ -591,8 +591,8 @@ footer{
       height: 75px;
       padding: 0px 10px;
       position: absolute;
-      top: 400px;
-      right: 0px;
+      top: 420px;
+      right: 20px;
     
     }
     .banner-badge1 h3{
@@ -605,13 +605,14 @@ footer{
     }
 
     .banner-badge2{
+      
       width: 140px;
       height: 70px;
       
       align-items: center;
       position: absolute;
-      right: 180px;
-      bottom: -100px;
+      right: 200px;
+      bottom: -200px;
     }
     .banner-badge2 h3{
       font-size: 1.1rem;
@@ -624,7 +625,7 @@ footer{
    
     .play{
       position: absolute;
-      right: 112px;
+      right: 110px;
       bottom: 27px;
     }
     .your-habits{
